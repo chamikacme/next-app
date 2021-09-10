@@ -4,11 +4,11 @@ export default function Home() {
   return (
     <div >
       <Head>
-        <title>Create Next App</title>
+        <title>MynextApp</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Hello World!</h1>
+     
 
 
     </div>
