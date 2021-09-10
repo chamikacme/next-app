@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/Header'
 
 export default function Home() {
   return (
@@ -9,11 +10,12 @@ export default function Home() {
       </Head>
 
      {/* Header */}
+     <Header/>
 
      {/* SlideBar */}
 
      {/* Feed */}
-     
+
      {/* Widgets */}
 
 
