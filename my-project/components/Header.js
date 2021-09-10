@@ -5,7 +5,12 @@ function Header(){
         <div>
            {/* Left */}
            <div>
-               <Image/>
+               <Image
+               src = "https://links.papareact.com/5me"
+               width={40}
+               height={40}
+               layout="fixed"
+               />
            </div>
            {/* Center */}
            {/* Right */}
