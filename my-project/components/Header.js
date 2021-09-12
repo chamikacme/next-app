@@ -12,7 +12,7 @@ import {
     FlagIcon,
     PlayIcon,
     ShoppingCartIcon,
-    SearchIcon
+    SearchIcon 
 
 } from "@heroicons/react/outline"
 
@@ -29,6 +29,8 @@ function Header(){
                />
 
                <div>
+                   <SearchIcon className="h-6 text-gray-600"/>
+                   <input type="text" placeholder="Search"/>
 
                </div>
            </div>
