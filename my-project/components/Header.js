@@ -28,9 +28,9 @@ function Header(){
                layout="fixed"
                />
 
-               <div>
+               <div className="flex">
                    <SearchIcon className="h-6 text-gray-600"/>
-                   <input type="text" placeholder="Search"/>
+                   <input type="text" placeholder="Search" className="hidden md:inline-flex"/>
 
                </div>
            </div>
