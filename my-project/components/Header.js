@@ -15,6 +15,7 @@ import {
     SearchIcon 
 
 } from "@heroicons/react/outline"
+import HeaderIcon from "./HeaderIcons";
 
 function Header(){
     return(
@@ -35,6 +36,11 @@ function Header(){
                </div>
            </div>
            {/* Center */}
+           <div>
+               <div>
+                   <HeaderIcon/>
+               </div>
+           </div>
 
            {/* Right */}
 
