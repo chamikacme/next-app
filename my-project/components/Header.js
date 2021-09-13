@@ -20,7 +20,7 @@ function Header(){
     return(
         <div>
            {/* Left */}
-           <div>
+           <div className="flex items-center">
                <Image
                src = "https://links.papareact.com/5me"
                width={40}
@@ -28,9 +28,9 @@ function Header(){
                layout="fixed"
                />
 
-               <div className="flex">
+               <div className="flex ml-2 items-center bg-gray-100 rounded-full p-2">
                    <SearchIcon className="h-6 text-gray-600"/>
-                   <input type="text" placeholder="Search" className="hidden md:inline-flex"/>
+                   <input type="text" placeholder="Search" className="hidden md:inline-flex ml-2 items-center"/>
 
                </div>
            </div>
