@@ -38,7 +38,11 @@ function Header(){
            {/* Center */}
            <div>
                <div>
-                   <HeaderIcon/>
+                   <HeaderIcon Icon= {HomeIcon}/>
+                   <HeaderIcon Icon= {HomeIcon}/>
+                   <HeaderIcon Icon= {HomeIcon}/>
+                   <HeaderIcon Icon= {HomeIcon}/>
+                   <HeaderIcon Icon= {UserGroupIcon}/>
                </div>
            </div>
 

@@ -1,7 +1,7 @@
-function HeaderIcon() {
+function HeaderIcon({Icon}) {
 return (
     <div>
-        <h1>Hello Header</h1>
+      <Icon/>
 
     </div>
 )
